@@ -1,0 +1,14 @@
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("welcome to coffeemachine");
+		coffee machine1 = new coffee();
+		machine1.fakeWaterLevel(20);
+		machine1.fakeCoffeeLevel(30);
+		
+		machine1.makeCoffee(1);
+		
+		
+	}
+
+}
